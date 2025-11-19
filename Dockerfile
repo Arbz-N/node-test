@@ -1,5 +1,5 @@
 # Use Node.js latest version
-FROM node:latest
+FROM public.ecr.aws/docker/library/node:latest
 
 # Set working directory inside the container
 WORKDIR /usr/src/app
